@@ -63,7 +63,7 @@ main_only = false
 
 [color]
 # Customize each part's color. If no color found, use the raw app log.
-main = "magenta"
+main = "magenta"t
 watcher = "cyan"
 build = "yellow"
 runner = "green"
