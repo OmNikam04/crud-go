@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  server:
+    container_name: server
+    image: cosmtrek/air:latest
+    working_dir: /go/src/crud-go/cmd/app
+    command: air -c ./air.toml
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/go/src/crud-go
